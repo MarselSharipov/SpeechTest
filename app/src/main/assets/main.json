@@ -1,0 +1,2745 @@
+[
+  {
+    "themeId": 0,
+    "name": "Алфавит",
+    "tasks": [
+      {
+        "taskId": 0,
+        "name": "Алфавит",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "А,Б,В,Г,Д,Е,Ё,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ,Ъ,Ы,Ь,Э,Ю,Я"
+          }
+        ]
+      }
+    ],
+    "test": {
+      "timer": 0,
+      "engine": "siri",
+      "text": ""
+    }
+  },
+  {
+    "themeId": 1,
+    "name": "Урок 1",
+    "tasks": [
+      {
+        "taskId": 0,
+        "name": "А, О, У",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "А"
+          },
+          {
+            "cardId": 1,
+            "type": 0,
+            "text": "О"
+          },
+          {
+            "cardId": 2,
+            "type": 0,
+            "text": "У"
+          },
+          {
+            "cardId": 3,
+            "type": 0,
+            "text": "а – о"
+          },
+          {
+            "cardId": 4,
+            "type": 0,
+            "text": "у – о"
+          },
+          {
+            "cardId": 5,
+            "type": 0,
+            "text": "у – а"
+          },
+          {
+            "cardId": 6,
+            "type": 0,
+            "text": "а – у"
+          },
+          {
+            "cardId": 7,
+            "type": 0,
+            "text": "о – у"
+          }
+        ]
+      },
+      {
+        "taskId": 1,
+        "name": "П",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "П"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "па – ап"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "пу – уп"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "по – оп"
+          },
+          {
+            "cardId": 4,
+            "type": 2,
+            "text": "па́па"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "приве́т"
+          }
+        ]
+      },
+      {
+        "taskId": 2,
+        "name": "М",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "М"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "ма - ам"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "му – ум"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "мо - ом"
+          },
+          {
+            "cardId": 4,
+            "type": 2,
+            "text": "ма́ма"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "метро́"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "магази́н"
+          }
+        ]
+      },
+      {
+        "taskId": 3,
+        "name": "Ф",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Ф"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "фа - аф"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "фу - уф"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "фо - оф"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "фап"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "поф"
+          },
+          {
+            "cardId": 6,
+            "type": 1,
+            "text": "пум"
+          },
+          {
+            "cardId": 7,
+            "type": 1,
+            "text": "фам"
+          },
+          {
+            "cardId": 8,
+            "type": 1,
+            "text": "моф"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "фо́то"
+          }
+        ]
+      },
+      {
+        "taskId": 4,
+        "name": "Т",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Т"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "та"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "ту"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "то"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "тут"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "пут"
+          },
+          {
+            "cardId": 6,
+            "type": 1,
+            "text": "пат"
+          },
+          {
+            "cardId": 7,
+            "type": 1,
+            "text": "мут"
+          },
+          {
+            "cardId": 8,
+            "type": 1,
+            "text": "том"
+          },
+          {
+            "cardId": 9,
+            "type": 1,
+            "text": "там"
+          }
+        ]
+      },
+      {
+        "taskId": 5,
+        "name": "С",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "С"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "са - ас"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "су - ус"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "со - ос"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "мас"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "сон"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "нас"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "сам"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "сама́"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "суп"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "спаси́бо"
+          },
+          {
+            "cardId": 11,
+            "type": 2,
+            "text": "мост"
+          }
+        ]
+      },
+      {
+        "taskId": 6,
+        "name": "Н",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Н"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "на"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "но"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "ун"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "нот"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "ман"
+          },
+          {
+            "cardId": 6,
+            "type": 1,
+            "text": "нум"
+          },
+          {
+            "cardId": 7,
+            "type": 1,
+            "text": "мун"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "он"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "нос"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "нет"
+          }
+        ]
+      }
+    ],
+    "test": {
+      "timer": 180,
+      "engine": "siri",
+      "text": "по, уп, ма, ом, фуп, пам, мут, тон, мун, он, приве́т, фо́то, там, суп, мост, нос"
+    }
+  },
+  {
+    "themeId": 2,
+    "name": "Урок 2",
+    "tasks": [
+      {
+        "taskId": 0,
+        "name": "И",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "И"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "им"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "ис"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "ин"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "ит"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "иф"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "и́ли"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "мои́"
+          }
+        ]
+      },
+      {
+        "taskId": 1,
+        "name": "Э",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Э"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "эм"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "эс"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "эт"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "эф"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "эн"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "э́то"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "э́та"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "э́тот"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "тот"
+          }
+        ]
+      },
+      {
+        "taskId": 2,
+        "name": "К",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "К"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "ка - ак"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "ку - ук"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "ко - ок"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "эк - ик"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "кот"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "сок"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "окно́"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "су́мка"
+          }
+        ]
+      },
+      {
+        "taskId": 3,
+        "name": "Х",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Х"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "ха"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "хо"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "ху"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "хи"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "ка - ха"
+          },
+          {
+            "cardId": 6,
+            "type": 1,
+            "text": "ко - хо"
+          },
+          {
+            "cardId": 7,
+            "type": 1,
+            "text": "ук - ух"
+          },
+          {
+            "cardId": 8,
+            "type": 1,
+            "text": "эк - эх"
+          },
+          {
+            "cardId": 9,
+            "type": 1,
+            "text": "ик - их"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "са́хар"
+          },
+          {
+            "cardId": 11,
+            "type": 2,
+            "text": "хлеб"
+          },
+          {
+            "cardId": 12,
+            "type": 2,
+            "text": "у́хо"
+          }
+        ]
+      },
+      {
+        "taskId": 4,
+        "name": "Он",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 2,
+            "text": "он"
+          },
+          {
+            "cardId": 1,
+            "type": 2,
+            "text": "она́"
+          },
+          {
+            "cardId": 2,
+            "type": 2,
+            "text": "сам"
+          },
+          {
+            "cardId": 3,
+            "type": 2,
+            "text": "сама́"
+          },
+          {
+            "cardId": 4,
+            "type": 2,
+            "text": "па́па"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "капу́ста"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "ко́мната"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "ма́ма"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "Анто́н"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "э́то"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "пото́м"
+          }
+        ]
+      }
+    ],
+    "test": {
+      "timer": 210,
+      "engine": "siri",
+      "text": "па́па, сама́, капу́ста, ко́мната, пото́м, окно́, ик, мои́, эх, э́то, ку, сок, ко́фе, су́мка, ха, у́хо"
+    }
+  },
+  {
+    "themeId": 3,
+    "name": "Урок 3",
+    "tasks": [
+      {
+        "taskId": 0,
+        "name": "Й",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Й"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "ой"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "ай"
+          },
+          {
+            "cardId": 3,
+            "type": 2,
+            "text": "мой"
+          },
+          {
+            "cardId": 4,
+            "type": 2,
+            "text": "мои́"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "твой"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "твои́"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "стои́т"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "сто́й"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "май"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "како́й"
+          }
+        ]
+      },
+      {
+        "taskId": 1,
+        "name": "Ы",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Ы"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "пы"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "мы"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "ты"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "ны"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "сы"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "стол"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "столы́"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "нос"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "носы́"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "мост"
+          },
+          {
+            "cardId": 11,
+            "type": 2,
+            "text": "мосты́"
+          },
+          {
+            "cardId": 12,
+            "type": 2,
+            "text": "ко́мната"
+          },
+          {
+            "cardId": 13,
+            "type": 2,
+            "text": "ко́мнаты"
+          },
+          {
+            "cardId": 14,
+            "type": 2,
+            "text": "стака́н"
+          },
+          {
+            "cardId": 15,
+            "type": 2,
+            "text": "стака́ны"
+          },
+          {
+            "cardId": 16,
+            "type": 2,
+            "text": "сын"
+          }
+        ]
+      },
+      {
+        "taskId": 2,
+        "name": "Я, Ю, Е и Ё",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Я"
+          },
+          {
+            "cardId": 1,
+            "type": 0,
+            "text": "Ю"
+          },
+          {
+            "cardId": 2,
+            "type": 0,
+            "text": "Е"
+          },
+          {
+            "cardId": 3,
+            "type": 0,
+            "text": "Ё"
+          },
+          {
+            "cardId": 4,
+            "type": 2,
+            "text": "моя́"
+          },
+          {
+            "cardId": 5,
+            "type": 2,
+            "text": "твоя́"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "моё"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "твоё"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "её"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "даю́"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "ест"
+          },
+          {
+            "cardId": 11,
+            "type": 2,
+            "text": "я́блоко"
+          },
+          {
+            "cardId": 12,
+            "type": 2,
+            "text": "есть"
+          },
+          {
+            "cardId": 13,
+            "type": 2,
+            "text": "Ю́лия"
+          },
+          {
+            "cardId": 14,
+            "type": 2,
+            "text": "ёлка"
+          },
+          {
+            "cardId": 15,
+            "type": 2,
+            "text": "ю́бка"
+          }
+        ]
+      }
+    ],
+    "test": {
+      "timer": 240,
+      "engine": "siri",
+      "text": "мой, стой, май, ны, мы, сын, полы́, носы́, ко́фты, стака́ны, её, даю́, ест, я́блоко, ёлка, ю́бка"
+    }
+  },
+  {
+    "themeId": 4,
+    "name": "Урок 4",
+    "tasks": [
+      {
+        "taskId": 0,
+        "name": "Ш",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Ш"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "ша - аш"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "шо – ош"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "шу – уш"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "ши – иш"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "ше - еш"
+          },
+          {
+            "cardId": 6,
+            "type": 2,
+            "text": "наш"
+          },
+          {
+            "cardId": 7,
+            "type": 2,
+            "text": "на́ша"
+          },
+          {
+            "cardId": 8,
+            "type": 2,
+            "text": "на́ше"
+          },
+          {
+            "cardId": 9,
+            "type": 2,
+            "text": "на́ши"
+          },
+          {
+            "cardId": 10,
+            "type": 2,
+            "text": "ваш"
+          },
+          {
+            "cardId": 11,
+            "type": 2,
+            "text": "ва́ша"
+          },
+          {
+            "cardId": 12,
+            "type": 2,
+            "text": "ва́ше"
+          },
+          {
+            "cardId": 13,
+            "type": 2,
+            "text": "ва́ши"
+          },
+          {
+            "cardId": 14,
+            "type": 2,
+            "text": "шкаф"
+          },
+          {
+            "cardId": 15,
+            "type": 2,
+            "text": "хорошо́"
+          },
+          {
+            "cardId": 16,
+            "type": 2,
+            "text": "ша́пка"
+          },
+          {
+            "cardId": 17,
+            "type": 2,
+            "text": "шарф"
+          },
+          {
+            "cardId": 18,
+            "type": 2,
+            "text": "каранда́ш"
+          },
+          {
+            "cardId": 19,
+            "type": 2,
+            "text": "маши́ны"
+          },
+          {
+            "cardId": 20,
+            "type": 2,
+            "text": "шесть"
+          }
+        ]
+      },
+      {
+        "taskId": 1,
+        "name": "Ц",
+        "engine": "siri",
+        "cards": [
+          {
+            "cardId": 0,
+            "type": 0,
+            "text": "Ц"
+          },
+          {
+            "cardId": 1,
+            "type": 1,
+            "text": "цо – ца"
+          },
+          {
+            "cardId": 2,
+            "type": 1,
+            "text": "цу – цы"
+          },
+          {
+            "cardId": 3,
+            "type": 1,
+            "text": "це – ци"
+          },
+          {
+            "cardId": 4,
+            "type": 1,
+            "text": "ца – цу"
+          },
+          {
+            "cardId": 5,
+            "type": 1,
+            "text": "цо – це"
+          },
+          {
+            "cardId": 6,
+            "type": 1,
+            "text": "та – са – ца"
+          },
+          {
+            "cardId": 7,
+            "type": 1,
+            "text": "ту – цу – су"
+          },
+          {
+            "cardId": 8,
+            "type": 1,
+            "text": "те – це – се"
+          },
+          {
+            "cardId": 9,
+            "type": 1,
+            "text": "шо – со – цо"
+          },
+          {
+            "cardId": 10,
+            "type": 1,
+            "text": "шу – су – цу"
+          },
+          {
+            "cardId": 11,
+            "type": 1,
+            "text": "сы – цы – ши"
+          },
+          {
+            "cardId": 12,
+            "type": 2,
+            "text": "цена́"
+          },
+          {
+            "cardId": 13,
+            "type": 2,
+            "text": "оте́ц"
+          },
+          {
+            "cardId": 14,
+            "type": 2,
+            "text": "центр"
+          }
+        ]
+      }
+    ],
+    "test": {
+      "timer": 210,
+      "engine": "siri",
+      "text": "шо, ше, ши, аш, шкаф, ша́пка, каранда́ш, шум, шест, цу, цы, це, цо, сы, цена́, па́лец"
+    }
+  },
+    {
+      "themeId": 5,
+      "name": "Урок 5",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "В",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "В"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "а́ву"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "ван"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "и́ву"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "вма"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "вну"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "во - фо"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "вы - фы"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "ви́за"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "но́вый"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "Москва́"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Б",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Б"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ба"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "бу"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "вба"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "бва"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "боп"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "мба"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "бы - пы"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "ба - ва"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "бо - во"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "бас - пас"
+            },
+            {
+              "cardId": 11,
+              "type": 1,
+              "text": "вас - фас"
+            },
+            {
+              "cardId": 12,
+              "type": 1,
+              "text": "пот - вот"
+            },
+            {
+              "cardId": 13,
+              "type": 2,
+              "text": "брат"
+            },
+            {
+              "cardId": 14,
+              "type": 2,
+              "text": "бана́н"
+            },
+            {
+              "cardId": 15,
+              "type": 2,
+              "text": "банк"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Д",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Д"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "и́да"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "ды"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "дэ"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "та - да"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "то - до"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "дам"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "доп"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "дут"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "дым"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "вдо"
+            },
+            {
+              "cardId": 11,
+              "type": 1,
+              "text": "вды"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "дом"
+            },
+            {
+              "cardId": 13,
+              "type": 1,
+              "text": "да"
+            },
+            {
+              "cardId": 14,
+              "type": 2,
+              "text": "вода́"
+            }
+          ]
+        },
+        {
+          "taskId": 3,
+          "name": "З",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "З"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "за"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "узу́"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "оза́"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "зут"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "взо"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "зда"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "зот"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "зна"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "са - за"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "со - зо"
+            },
+            {
+              "cardId": 11,
+              "type": 1,
+              "text": "су - зу"
+            },
+            {
+              "cardId": 12,
+              "type": 1,
+              "text": "сэ - зэ"
+            },
+            {
+              "cardId": 13,
+              "type": 1,
+              "text": "сы - зы"
+            },
+            {
+              "cardId": 14,
+              "type": 2,
+              "text": "звук"
+            },
+            {
+              "cardId": 15,
+              "type": 2,
+              "text": "зонт"
+            },
+            {
+              "cardId": 16,
+              "type": 2,
+              "text": "му́зыка"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 270,
+        "engine": "siri",
+        "text": "вмо, ваш, бак, мба, бо – по, бы – вы, но́вый, Ива́н, дым, иду́, доска́, у́зу, здо, са – за, зу́бы, зна́ю"
+      }
+    },
+    {
+      "themeId": 6,
+      "name": "Урок 6",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "Ж",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Ж"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "а́жа"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "жо"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "о́жу"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "жи"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "же"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "жа – ша"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "жу – шу"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "жо – шо"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "жи – ши"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "жена́"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "журна́л"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "мо́жно"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Г",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Г"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ого́"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "ога́"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "уга́"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "га – ка"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "го – ко"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "гу – ку"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "бума́га"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "го́род"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "пого́да"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Л",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Л"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ла"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "лэ"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "глы"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "клу"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "сло"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "ул"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "ол"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "лы – лу"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "ло – ла"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "был"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "была́"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "дал"
+            },
+            {
+              "cardId": 13,
+              "type": 2,
+              "text": "дала́"
+            },
+            {
+              "cardId": 14,
+              "type": 2,
+              "text": "стол"
+            },
+            {
+              "cardId": 15,
+              "type": 2,
+              "text": "столы́"
+            },
+            {
+              "cardId": 16,
+              "type": 2,
+              "text": "ла́мпа"
+            },
+            {
+              "cardId": 17,
+              "type": 2,
+              "text": "стул"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 270,
+        "engine": "siri",
+        "text": "жи – ши, жу, живу́т, ну́жно, то́же, о́га, га – ка, гу – ку, гу́бы, бума́га, лы, глу, пло, ил, дала́, ла́мпа"
+      }
+    },
+    {
+      "themeId": 7,
+      "name": "Урок 7",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "Р",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Р"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "а́ра"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "о́ра"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ура́"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "ра – ар"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "ро – ор"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "ру – ур"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "ры – ыр"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "рэ – эр"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "уро́к"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "ры́ба"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "Росси́я"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "сыр"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Ч",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Ч"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "чи"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "чу"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ча"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "ича́"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "ичо́"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "чи – ти"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "ты – цы"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "че – те – це"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "ча – та – ца"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "чу – ту – цу"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "час"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "чай"
+            },
+            {
+              "cardId": 13,
+              "type": 2,
+              "text": "ча́шка"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Щ",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 0,
+              "text": "Щ"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ищи́"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "ища́"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ще"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "щу"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "щё"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "ща – щё"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "щу – ще"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "щи - ищ"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "ащ – ощ"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "ущ – ещ"
+            },
+            {
+              "cardId": 11,
+              "type": 1,
+              "text": "ща – ча"
+            },
+            {
+              "cardId": 12,
+              "type": 1,
+              "text": "ся – тя"
+            },
+            {
+              "cardId": 13,
+              "type": 1,
+              "text": "щи – жи – ти"
+            },
+            {
+              "cardId": 14,
+              "type": 2,
+              "text": "борщ"
+            },
+            {
+              "cardId": 15,
+              "type": 2,
+              "text": "щётка"
+            },
+            {
+              "cardId": 16,
+              "type": 2,
+              "text": "ещё"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 300,
+        "engine": "siri",
+        "text": "а́ра, ур, рука́, руба́шка, брат, мо́ре, чи – ти, чу – цу, час, учу́, дочь, ща – ся, що – цо, щу – чу, щи, щётка"
+      }
+    },
+    {
+      "themeId": 8,
+      "name": "Урок 8",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "Зуб",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "зуб"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "хлеб"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "друг"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "четве́рг"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "год"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "нож"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "эта́ж"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "глаз"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Соба́ка",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "соба́ка"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "зуб"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "бума́га"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "друг"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "вода́"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "го́род"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "дом"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "год"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "уже́"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "нож"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "му́зыка"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "глаз"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Ю́бка",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "ю́бка"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "за́втра"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "вчера́"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "вто́рник"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "ло́дка"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "ло́жка"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 300,
+        "engine": "siri",
+        "text": "клуб, четве́рг, ров, год, муж, глаз, авто́бус, оши́бка, остано́вка, ло́жка, вто́рник, за́втра, ло́дка, арбу́з, но́жка"
+      }
+    },
+    {
+      "themeId": 9,
+      "name": "Урок 9",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "Он",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "он"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "она́"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "кот"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "коты́"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "дом"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "дома́"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "соба́ка"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "молоко́"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "вопро́с"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "го́род"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Семь",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "семь"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "семья́"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "лес"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "леса́"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "ре́ки"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "река́"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "сестра́"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "телефо́н"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Мяч",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "мяч"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "мячи́"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "пять"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "пятёрка"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "я́йца"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "яйцо́"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "пятна́дцать"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 300,
+        "engine": "siri",
+        "text": "голова́, вода́, кот, она́, семья́, лес, сестра́, семь, мячи́, соба́ка, яйцо́, пятна́дцать, леса́"
+      }
+    },
+    {
+      "themeId": 10,
+      "name": "Урок 10",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "Ма",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 1,
+              "text": "ма - мя - мья"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "бо – бё – бьё"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "пы – пи – пьи"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ва – вя – вья"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "фо – фё – фьё"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "зы – зи – зьи"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "са – ся – сья"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "но – нё – ньё"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "ду – дю – дью"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "ты – ти – тьи"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "ка – ки – ке"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Ма́ма",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "ма́ма"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "и́мя"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "семья́"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "мы"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "Ми́ла"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "се́мьи"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "сел"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "съел"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "суббо́та"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "тётя"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Статья́",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "статья́"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "суп"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "костю́м"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "пятёрка"
+            },
+            {
+              "cardId": 4,
+              "type": 2,
+              "text": "статью́"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "ест"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "есть"
+            },
+            {
+              "cardId": 7,
+              "type": 2,
+              "text": "пла́тье"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "вода́"
+            },
+            {
+              "cardId": 9,
+              "type": 2,
+              "text": "дя́дя"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "судья́"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "дым"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "оди́н"
+            },
+            {
+              "cardId": 13,
+              "type": 2,
+              "text": "су́дьи"
+            }
+          ]
+        },
+        {
+          "taskId": 3,
+          "name": "Тётя",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "тётя"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "дя́дя"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 300,
+        "engine": "siri",
+        "text": "пла́тье, о́сень, тётя, весна́, поёт, дя́дя, суббо́та, костю́м, семья́, се́мьи, статью́"
+      }
+    },
+    {
+      "themeId": 11,
+      "name": "Урок 11",
+      "tasks": [
+        {
+          "taskId": 0,
+          "name": "И́ли",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "и́ли"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ля"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "лю"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ле"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "лё"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "оль"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "юль"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "ла – ля – лья"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "ло – лё – льё"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "лу – лю – лью"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "лы – ли – льи"
+            }
+          ]
+        },
+        {
+          "taskId": 1,
+          "name": "Самолёт",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 2,
+              "text": "самолёт"
+            },
+            {
+              "cardId": 1,
+              "type": 2,
+              "text": "люблю́"
+            },
+            {
+              "cardId": 2,
+              "type": 2,
+              "text": "бале́т"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "соль"
+            },
+            {
+              "cardId": 3,
+              "type": 2,
+              "text": "пальто́"
+            },
+            {
+              "cardId": 4,
+              "type": 1,
+              "text": "ри"
+            },
+            {
+              "cardId": 5,
+              "type": 1,
+              "text": "рё"
+            },
+            {
+              "cardId": 6,
+              "type": 1,
+              "text": "ре"
+            },
+            {
+              "cardId": 7,
+              "type": 1,
+              "text": "ря"
+            },
+            {
+              "cardId": 8,
+              "type": 1,
+              "text": "рю"
+            },
+            {
+              "cardId": 9,
+              "type": 1,
+              "text": "и́ри"
+            },
+            {
+              "cardId": 10,
+              "type": 1,
+              "text": "арь"
+            },
+            {
+              "cardId": 11,
+              "type": 1,
+              "text": "орь"
+            },
+            {
+              "cardId": 12,
+              "type": 1,
+              "text": "и́ря"
+            }
+          ]
+        },
+        {
+          "taskId": 2,
+          "name": "Ра",
+          "engine": "siri",
+          "cards": [
+            {
+              "cardId": 0,
+              "type": 1,
+              "text": "ра – ря – рья"
+            },
+            {
+              "cardId": 1,
+              "type": 1,
+              "text": "ро – рё – рьё"
+            },
+            {
+              "cardId": 2,
+              "type": 1,
+              "text": "ру – рю – рью"
+            },
+            {
+              "cardId": 3,
+              "type": 1,
+              "text": "ри – ры – рьи"
+            },
+            {
+              "cardId": 4,
+              "text": "ра́дио"
+            },
+            {
+              "cardId": 5,
+              "type": 2,
+              "text": "говоря́т"
+            },
+            {
+              "cardId": 6,
+              "type": 2,
+              "text": "ры́ба"
+            },
+            {
+              "cardId": 8,
+              "type": 2,
+              "text": "рука́"
+            },
+            {
+              "cardId": 10,
+              "type": 2,
+              "text": "сыр"
+            },
+            {
+              "cardId": 11,
+              "type": 2,
+              "text": "слова́рь"
+            },
+            {
+              "cardId": 12,
+              "type": 2,
+              "text": "янва́рь"
+            },
+            {
+              "cardId": 13,
+              "type": 2,
+              "text": "телеви́зор"
+            }
+          ]
+        }
+      ],
+      "test": {
+        "timer": 300,
+        "engine": "siri",
+        "text": "говори́шь, янва́рь, льёт, люблю́, говоря́т, слова́рь, и́ли, пальто́, самолёт, река́, брю́ки, бале́т"
+      }
+    }
+]
