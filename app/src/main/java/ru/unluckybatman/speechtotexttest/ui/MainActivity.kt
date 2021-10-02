@@ -4,7 +4,6 @@ import android.Manifest
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
@@ -14,10 +13,9 @@ import net.gotev.speech.Speech
 import net.gotev.speech.SpeechDelegate
 import org.koin.android.ext.android.get
 import ru.unluckybatman.speechtotexttest.databinding.ActivityMainBinding
+import java.util.*
 
 class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
-
-    private val tag = "MainActivity"
 
     private lateinit var binding: ActivityMainBinding
 
@@ -30,15 +28,13 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
         setContentView(binding.root)
 
         Speech.init(this, packageName)
-//        Speech.getInstance().setPreferOffline(true)
-//        Speech.getInstance().setStopListeningAfterInactivity(10000000000)
-
+        Speech.getInstance().setLocale(Locale("RU"))
 
         binding.listenButton.setOnClickListener { presenter.processListenButton() }
         binding.nextButton.setOnClickListener { presenter.processNextButton() }
         binding.previousButton.setOnClickListener { presenter.processPrevButton() }
 
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED){
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
             requestPermissions()
         }
     }
@@ -49,15 +45,15 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
     }
 
     override fun onStartOfSpeech() {
-        Log.d(tag, "onStartOfSpeech: ")
+//        doNothing
     }
 
     override fun onSpeechRmsChanged(value: Float) {
-        Log.d(tag, "onSpeechRmsChanged: ")
+//        doNothing
     }
 
     override fun onSpeechPartialResults(results: MutableList<String>?) {
-        Log.d(tag, "onSpeechPartialResults: ")
+//        doNothing
     }
 
     override fun onSpeechResult(result: String?) {
@@ -81,12 +77,8 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
-    fun requestPermissions() = when (PackageManager.PERMISSION_GRANTED) {
-        this.let {
-            ContextCompat.checkSelfPermission(
-                this, Manifest.permission.RECORD_AUDIO
-            )
-        } -> {
+    private fun requestPermissions() = when (PackageManager.PERMISSION_GRANTED) {
+        ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) -> {
         }
         else -> {
             requestPermissionLauncher.launch(
@@ -97,7 +89,6 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
 
     private val requestPermissionLauncher = registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
         if (isGranted) {
-//            presenter.startRecognition()
             println("GRANTED")
         } else {
             println("NOT GRANTED")
