@@ -43,22 +43,18 @@ class MainPresenter(private val utils: Utils): MvpPresenter<IMainActivity>() {
     }
 
     private fun showWord() {
-        if (currentPosition > -1 && currentPosition < wordsList.size) {
-            viewState.showWord(wordsList[currentPosition])
-        } else {
-            when {
-                currentPosition < 0 -> {
-                    currentPosition = 0
-                }
-
-                currentPosition >= wordsList.size -> {
-                    currentPosition = wordsList.size - 1
-                }
+        when {
+            currentPosition < 0 -> {
+                currentPosition = 0
             }
 
-            if (!wordsList.isNullOrEmpty()) {
-                viewState.showWord(wordsList[currentPosition])
+            currentPosition >= wordsList.size -> {
+                currentPosition = wordsList.size - 1
             }
+        }
+
+        if (!wordsList.isNullOrEmpty()) {
+            viewState.showWord(wordsList[currentPosition], "${currentPosition + 1}/${wordsList.size}")
         }
     }
 

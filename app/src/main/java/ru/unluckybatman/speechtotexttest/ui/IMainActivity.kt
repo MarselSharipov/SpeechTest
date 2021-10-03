@@ -8,6 +8,6 @@ interface IMainActivity: MvpView {
     @OneExecution
     fun startListening()
 
-    fun showWord(text: String?)
+    fun showWord(text: String?, currentPosition: String)
 
 }

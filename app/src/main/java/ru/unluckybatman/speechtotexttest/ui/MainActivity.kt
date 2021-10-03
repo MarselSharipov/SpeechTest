@@ -69,8 +69,9 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
         Speech.getInstance().startListening(this@MainActivity)
     }
 
-    override fun showWord(text: String?) {
+    override fun showWord(text: String?, currentPosition: String) {
         binding.targetTextView.text = text
+        binding.currentPositionTextView.text = currentPosition
     }
 
     private fun Activity.toast(message: String) {

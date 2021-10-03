@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SpeechToTextTest</string>
+
+    <string name="target">Говорить:</string>
+    <string name="result">Результат:</string>
+    <string name="prev">Назад</string>
+    <string name="next">Далее</string>
+    <string name="listen">Слушать</string>
 </resources>
