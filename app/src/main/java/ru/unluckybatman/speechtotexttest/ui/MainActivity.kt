@@ -4,31 +4,31 @@ import android.Manifest
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
+import github.com.vikramezhil.dks.speech.Dks
+import github.com.vikramezhil.dks.speech.DksListener
 import moxy.MvpAppCompatActivity
 import moxy.ktx.moxyPresenter
-import net.gotev.speech.Speech
-import net.gotev.speech.SpeechDelegate
 import org.koin.android.ext.android.get
 import ru.unluckybatman.speechtotexttest.databinding.ActivityMainBinding
 import java.util.*
 
-class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
+class MainActivity: MvpAppCompatActivity(), IMainActivity {
 
     private lateinit var binding: ActivityMainBinding
 
     private val presenter by moxyPresenter { get<MainPresenter>() }
+
+    private var dks: Dks? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        Speech.init(this, packageName)
-        Speech.getInstance().setLocale(Locale("RU"))
 
         binding.listenButton.setOnClickListener { presenter.processListenButton() }
         binding.nextButton.setOnClickListener { presenter.processNextButton() }
@@ -37,36 +37,13 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
             requestPermissions()
         }
-    }
 
-    override fun onDestroy() {
-        Speech.getInstance().shutdown()
-        super.onDestroy()
-    }
-
-    override fun onStartOfSpeech() {
-//        doNothing
-    }
-
-    override fun onSpeechRmsChanged(value: Float) {
-//        doNothing
-    }
-
-    override fun onSpeechPartialResults(results: MutableList<String>?) {
-//        doNothing
-    }
-
-    override fun onSpeechResult(result: String?) {
-        binding.resultTextView.text = result
-
-        if (result == null) {
-            toast("Null - не распозналось!")
-        }
-
+        dks = Dks(application, dksListener)
+        dks?.currentSpeechLanguage = "ru-RU"
     }
 
     override fun startListening() {
-        Speech.getInstance().startListening(this@MainActivity)
+        dks?.startSpeechRecognition()
     }
 
     override fun showWord(text: String?, currentPosition: String) {
@@ -85,6 +62,30 @@ class MainActivity: MvpAppCompatActivity(), IMainActivity, SpeechDelegate {
             requestPermissionLauncher.launch(
                 Manifest.permission.RECORD_AUDIO
             )
+        }
+    }
+
+    private val dksListener = object: DksListener {
+        override fun onDksLiveSpeechResult(liveSpeechResult: String) {
+            Log.d("TaskActivity", "onDksLiveSpeechResult: $liveSpeechResult")
+        }
+
+        override fun onDksFinalSpeechResult(speechResult: String) {
+            Log.d("TaskActivity", "onDksFinalSpeechResult: $speechResult")
+            binding.resultTextView.text = speechResult
+
+            if (speechResult == null) {
+                toast("Null - не распозналось!")
+            }
+        }
+
+        override fun onDksLiveSpeechFrequency(frequency: Float) {}
+
+        override fun onDksLanguagesAvailable(defaultLanguage: String?, supportedLanguages: ArrayList<String>?) {
+        }
+
+        override fun onDksSpeechError(errMsg: String) {
+            Log.d("TaskActivity", "onDksSpeechError: $errMsg ")
         }
     }
 
